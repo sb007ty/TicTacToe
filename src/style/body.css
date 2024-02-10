@@ -1,0 +1,32 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-main {
+  display: grid;
+  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: repeat(3, 150px);
+}
+
+.item {
+  border: 1px solid whitesmoke;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-text {
+  font-size: 50px;
+}
+
+.player-X {
+  color: orange;
+}
+
+.player-O {
+  color: green;
+}
